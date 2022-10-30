@@ -1,0 +1,94 @@
+@import url('./honts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Theme colors*/
+    --text-gray: #3f4954;
+     --white: white;
+     --bg-color: #0f0f0f;
+     --text-light: #686666da;
+     --midnight: #104f55;
+ 
+    /* font-family*/
+ 
+    --Abel:'Abel',cursive;
+     --Anton:'Anton',cursive;
+     --Lexend:'Lexend',cursive;
+     --Livvic:'Livvic',cursive;
+     --Josefin:'Josefin',cursive;
+     --Alumni_sans_collegiate_one:'one',cursive;
+     --Cinzel:'Cinzel',cursive;
+     --indie-flower:'indie-flower',cursive;
+     --Alumni_sans_pinstripe:'Alumni', cursive;
+     /* gradient colors*/
+   --sky: linear-gradient(120deg,#a1c4fd 0%,#c2e9fb 100%);
+ 
+ }
+
+ h3 {
+    font-family: var(--Alumni_sans_collegiate_one);
+    font-size: 1.3rem;
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+ }
+ body {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../koll/b7.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+
+ .container {
+    width: 360px;
+    height: 400px;
+    margin: 8% auto;
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+ }
+
+ .container form {
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: 0.5s;
+ }
+
+ form input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+    outline: none;
+ }
+
+ ::placeholder {
+    color: #777;
+ }
+
+ .btn-box {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+ }
+
+ form button {
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+ }
+
+ 

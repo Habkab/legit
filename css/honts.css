@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Cinzel;
+  src:url('../honts/Cinzel/Cinzel-VariableFont_wght.ttf') ;
+  
+}
+
+@font-face {
+  font-family: Alumni_sans_collegiate_one;
+  src:url('../honts/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Regular.ttf') ;
+  
+}
+
+@font-face {
+  font-family: Alumni_sans_pinstripe;
+  src:url('../honts/Alumni_Sans_Pinstripe/AlumniSansPinstripe-Italic.ttf') ;
+  
+}
+
+@font-face {
+  font-family: indie_flower;
+  src:url('../honts/Indie_Flower/IndieFlower-Regular.ttf') ;
+  
+}
+
+
